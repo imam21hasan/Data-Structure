@@ -51,7 +51,6 @@ int main()
     traverse();
 
     deleteAtFront();
-    //deleteAtFront();
 
     printf("\nAfter deletion the linked list is : ");
     traverse();
