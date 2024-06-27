@@ -48,11 +48,11 @@ void insertAtPosition(int pos, int item)
     int i = 1;
     while (i < pos - 1)
     {
-        /*if (temp == NULL || temp->next == NULL)
+        if (temp == NULL || temp->next == NULL)
         {
             printf("Item position not found in the linked list !!!\n");
             return;
-        }*/
+        }
         temp = temp->next;
         i++;
     }
