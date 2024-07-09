@@ -46,6 +46,11 @@ void dequeue()
 void print()
 {
     printf("The Queue is : ");
+    if(rare==-1)
+    {
+        printf("Empty !!!\n");
+        return 0;
+    }
     for (int i = 0; i < SIZE; i++)
     {
         printf("%d  ", queue[i]);
