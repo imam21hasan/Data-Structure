@@ -2,11 +2,11 @@
 #include <stdlib.h>
 #define SIZE 4
 int queue[SIZE];
-int front = 0, rare = -1;
+int front = 0, rear = -1;
 
 int isFull()
 {
-    if (rare == SIZE - 1)
+    if (rear == SIZE - 1)
     {
         return 1;
     }
@@ -14,7 +14,7 @@ int isFull()
 }
 int isEmpty()
 {
-    if (rare == -1)
+    if (rear == -1)
     {
         return 1;
     }
@@ -27,8 +27,8 @@ void enqueue(int item)
         printf("The queue is full !!!\n");
         return;
     }
-    rare++;
-    queue[rare] = item;
+    rear++;
+    queue[rear] = item;
     printf("%d is enqueue successfully.\n", item);
 }
 void dequeue()
@@ -46,7 +46,7 @@ void dequeue()
 void print()
 {
     printf("The Queue is : ");
-    if(rare==-1)
+    if(rear==-1)
     {
         printf("Empty !!!\n");
         return 0;
