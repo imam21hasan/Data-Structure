@@ -5,7 +5,7 @@ struct Node
 {
     int data;
     struct Node *next;
-} *front = NULL, *rare = NULL;
+} *front = NULL, *rear = NULL;
 typedef struct Node node;
 
 void enqueue(int item)
@@ -20,22 +20,22 @@ void enqueue(int item)
     {
         new->data = item;
         new->next = NULL;
-        if (rare == NULL)
+        if (rear == NULL)
         {
             front = new;
-            rare = new;
+            rear = new;
         }
         else
         {
-            rare->next = new;
-            rare = new;
+            rear->next = new;
+            rear = new;
         }
     }
 }
 void dequeue()
 {
     node *temp = front;
-    if (rare == NULL)
+    if (rear == NULL)
     {
         printf("The Queue is already empty !!!\n");
         return;
@@ -44,7 +44,7 @@ void dequeue()
     front = front->next;
     if (front == NULL)
     {
-        rare = NULL;
+        rear = NULL;
     }
     free(temp);
     printf("Dequeue item is : %d\n", val);
@@ -53,7 +53,7 @@ void print()
 {
     node *temp = front;
     printf("The Queue is : ");
-    if (rare == NULL)
+    if (rear == NULL)
     {
         printf("Empty !!!\n");
         return;
