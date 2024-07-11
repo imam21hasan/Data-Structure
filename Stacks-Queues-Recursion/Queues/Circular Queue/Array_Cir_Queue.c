@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #define SIZE 4
 int queue[SIZE];
-int front = 0, rare = -1, totalItem = 0;
+int front = 0, rear = -1, totalItem = 0;
 
 void enqueue(int item)
 {
@@ -11,8 +11,8 @@ void enqueue(int item)
         printf("The Queue is already full !!!\n");
         return;
     }
-    rare = (rare + 1) % SIZE;
-    queue[rare] = item;
+    rear = (rear + 1) % SIZE;
+    queue[rear] = item;
     totalItem++;
     printf("%d enqueue successfully.\n", item);
 }
