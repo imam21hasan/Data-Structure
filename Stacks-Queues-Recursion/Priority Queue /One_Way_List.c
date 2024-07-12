@@ -5,7 +5,7 @@ struct Node
     int data;
     int prn;
     struct Node *next;
-} *head = NULL;
+} *front = NULL;
 typedef struct Node node;
 
 void insert(int item, int p)
@@ -15,14 +15,14 @@ void insert(int item, int p)
     new->prn = p;
     new->next = NULL;
 
-    if (head == NULL || head->prn > p)
+    if (front == NULL || front->prn > p)
     {
-        new->next = head;
-        head = new;
+        new->next = front;
+        front = new;
     }
     else
     {
-        node *temp = head;
+        node *temp = front;
         while (temp->next != NULL && temp->next->prn <= p)
         {
             temp = temp->next;
@@ -33,22 +33,22 @@ void insert(int item, int p)
 }
 void delete()
 {
-    node *temp = head;
-    if (head == NULL)
+    node *temp = front;
+    if (front == NULL)
     {
         printf("The Priority Queue is already empty !!!\n");
         return;
     }
     int val = temp->data;
-    head = head->next;
+    front = front->next;
     free(temp);
     printf("Deleting highest priority item is : %d\n", val);
 }
 void print()
 {
-    node *temp = head;
+    node *temp = front;
     printf("The Priority Queue is : ");
-    if (head == NULL)
+    if (front == NULL)
     {
         printf("empty !!!\n");
         return;
@@ -70,6 +70,7 @@ int main()
     insert(60, 4);
     print();
 
+    delete ();
     delete ();
     print();
 
