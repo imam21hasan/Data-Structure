@@ -57,7 +57,6 @@ node *copyList(node *head)
 int main()
 {
     node *head1 = NULL;
-    node *head2 = NULL;
 
     insert(&head1, 10);
     insert(&head1, 20);
@@ -68,7 +67,7 @@ int main()
     printf("The main list is : ");
     traverse(head1);
 
-    head2 = copyList(head1);
+    node *head2 = copyList(head1);
 
     printf("\nThe coppied list is : ");
     traverse(head2);
