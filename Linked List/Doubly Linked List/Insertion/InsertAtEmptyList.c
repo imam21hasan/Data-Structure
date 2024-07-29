@@ -11,6 +11,11 @@ typedef struct Node node;
 void insertEmptyList(int item)
 {
     node *new = (node *)malloc(sizeof(node));
+    if (new == NULL)
+    {
+        printf("Overflow.");
+        return;
+    }
     new->pre = NULL;
     new->data = item;
     new->next = NULL;
