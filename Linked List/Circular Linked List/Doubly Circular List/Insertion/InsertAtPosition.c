@@ -5,7 +5,7 @@ struct Node
     int data;
     struct Node *pre;
     struct Node *next;
-} *head;
+} *head=NULL;
 typedef struct Node node;
 void insert(int item)
 {
@@ -46,6 +46,11 @@ void insertAtPosition(int pos, int item)
 {
     node *temp = head;
     node *new = (node *)malloc(sizeof(node));
+    if(new==NULL)
+    {
+        printf("Overflow !!!\n");
+        return;
+    }
     new->data = item;
 
     if (pos == 1)
