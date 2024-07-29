@@ -5,12 +5,17 @@ struct Node
     int data;
     struct Node *pre;
     struct Node *next;
-} *head;
+} *head=NULL;
 typedef struct Node node;
 void insertAtFront(int item)
 {
     node *temp = head;
     node *new = (node *)malloc(sizeof(node));
+    if (new == NULL)
+    {
+        printf("Overflow !!!\n");
+        return;
+    }
     new->data = item;
     if (head == NULL)
     {
@@ -21,14 +26,14 @@ void insertAtFront(int item)
     }
     else
     {
-        while (temp->next != head) 
+        while (temp->next != head)
         {
             temp = temp->next;
         }
-        new->next=head;
-        new->pre=temp;
-        head->pre=new;
-        temp->next=new;
+        new->next = head;
+        new->pre = temp;
+        head->pre = new;
+        temp->next = new;
 
         head = new;
     }
