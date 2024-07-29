@@ -9,6 +9,11 @@ typedef struct Node node;
 void insert(int item)
 {
     node *new = (node *)malloc(sizeof(node));
+    if(new==NULL)
+    {
+        printf("Overflow !!!\n");
+        return;
+    }
     new->data = item;
 
     if (head == NULL)
