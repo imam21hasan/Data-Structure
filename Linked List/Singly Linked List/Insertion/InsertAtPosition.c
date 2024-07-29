@@ -5,10 +5,10 @@ struct Node
 {
     int data;
     struct Node *next;
-};
+} *a = NULL;
 typedef struct Node node;
 
-void traverse(node *a)
+void traverse()
 {
     node *temp = a;
     while (temp != NULL)
@@ -18,27 +18,32 @@ void traverse(node *a)
     }
 }
 
-void insertAtPosition(node **a, int item, int pos)
+void insertAtPosition(int item, int pos)
 {
-    node *temp = *a;
+    node *temp = a;
     node *new = (node *)malloc(sizeof(node));
+    if (new == NULL)
+    {
+        printf("Overflow.");
+        return;
+    }
     new->data = item;
     new->next = NULL;
 
     if (pos == 1)
     {
-        new->next = *a;
-        *a = new;
+        new->next = a;
+        a = new;
         return;
     }
     int i = 1;
     while (i < pos - 1)
     {
-        /*if (temp == NULL || temp->next == NULL)
+        if (temp == NULL || temp->next == NULL)
         {
-            printf("\nItem position not found in the linked list !!!");
+            printf("Item position not found in the linked list !!!\n");
             return;
-        }*/
+        }
         temp = temp->next;
         i++;
     }
@@ -47,7 +52,6 @@ void insertAtPosition(node **a, int item, int pos)
 }
 int main()
 {
-    node *a = NULL;
     a = (node *)malloc(sizeof(node));
     node *b = (node *)malloc(sizeof(node));
 
@@ -57,16 +61,16 @@ int main()
     b->next = NULL;
 
     printf("The main list is : ");
-    traverse(a);
+    traverse();
 
     int n;
     printf("\nEnter the position : ");
     scanf("%d", &n);
 
-    insertAtPosition(&a, 40, n);
+    insertAtPosition(40, n);
 
     printf("The inserted list is : ");
-    traverse(a);
+    traverse();
 
     return 0;
 }
