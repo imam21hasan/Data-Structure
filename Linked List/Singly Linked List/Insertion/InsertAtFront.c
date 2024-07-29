@@ -21,7 +21,7 @@ node *insertAtFront(node *a,int item)
     node *temp=a;
 
     node *new=(node *)malloc(sizeof(node));
-    if(a==NULL)
+    if(new==NULL)
     {
         printf("Overflow.");
     }
