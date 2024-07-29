@@ -12,22 +12,15 @@ int top = -1;
 
 int isEmpty()
 {
-    if (top == -1)
-    {
-        return 1;
-    }
-    return 0;
+    return top == -1;
 }
 void push(node *root)
 {
-    top++;
-    stack[top] = root;
+    stack[++top] = root;
 }
 node *pop()
 {
-    node *val = stack[top];
-    top--;
-    return val;
+    return stack[top--];
 }
 node *newNode(int item)
 {
@@ -44,7 +37,7 @@ node *insert()
     scanf("%d", &x);
     node *newRoot = newNode(x);
 
-    if (x == 0)
+    if (x == -1)
     {
         return 0;
     }
