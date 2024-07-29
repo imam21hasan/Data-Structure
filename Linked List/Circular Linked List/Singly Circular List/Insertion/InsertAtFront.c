@@ -10,6 +10,11 @@ void insertAtFront(int item)
 {
     node *temp = head;
     node *new = (node *)malloc(sizeof(node));
+    if(new==NULL)
+    {
+        printf("Overflow !!!\n");
+        return;
+    }
     new->data = item;
     if (head == NULL)
     {
