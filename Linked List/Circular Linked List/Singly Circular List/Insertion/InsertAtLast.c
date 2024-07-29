@@ -10,6 +10,11 @@ void insertAtLast(int item)
 {
     node *temp = head;
     node *new = (node *)malloc(sizeof(node));
+    if (new == NULL)
+    {
+        printf("Overflow !!!\n");
+        return;
+    }
     new->data = item;
     if (head == NULL)
     {
@@ -22,8 +27,8 @@ void insertAtLast(int item)
         {
             temp = temp->next;
         }
+        temp->next = new;
         new->next = head;
-        temp->next=new;
     }
 }
 void traverse()
@@ -33,7 +38,7 @@ void traverse()
     {
         printf("%d  ", temp->data);
         temp = temp->next;
-    }while (temp != head);
+    } while (temp != head);
 }
 int main()
 {
