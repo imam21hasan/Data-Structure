@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 #include <stdlib.h>
 struct Node
@@ -19,6 +18,11 @@ void insertEmptyList(int item)
 void insertAtFront(int item)
 {
     node *new = (node *)malloc(sizeof(node));
+    if (new == NULL)
+    {
+        printf("Overflow.");
+        return;
+    }
     new->pre = NULL;
     new->data = item;
     new->next = NULL;
