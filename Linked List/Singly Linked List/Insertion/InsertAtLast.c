@@ -18,14 +18,13 @@ void traverse(node *a)
 
 void insertAtLast(node *a, int item)
 {
-    if (a == NULL)
+    node *temp = a;
+    node *new = (node *)malloc(sizeof(node));
+    if (new == NULL)
     {
         printf("Overflow.");
         return;
     }
-    node *temp = a;
-
-    node *new = (node *)malloc(sizeof(node));
     new->data = item;
     new->next = NULL;
 
