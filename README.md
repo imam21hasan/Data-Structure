@@ -52,8 +52,8 @@
   - ### <a href="https://github.com/imam21hasan/Data-Structure/tree/main/Tree/Binary%20Tree%20Representation">Binary Tree Representation</a>
   - ### <a href="https://github.com/imam21hasan/Data-Structure/tree/main/Tree/Traverse%20Binary%20Tree">Traverse Binary Tree</a>
     - #### <a href="https://github.com/imam21hasan/Data-Structure/tree/main/Tree/Traverse%20Binary%20Tree/Using%20Stack"> Traverse BT using Stack</a>
-  - ### <a href="https://github.com/imam21hasan/Data-Structure/tree/main/Tree/Threaded%20Binary%20Tree">Threaded Binary Tree</a>
-  - ### <a href="">Binary Search Tree</a>
+  - ### <a href="https://github.com/imam21hasan/Data-Structure/tree/main/Tree/Threaded%20Binary%20Tree">Threaded Binary Trees</a>
+  - ### <a href="">Binary Search Trees</a>
     - #### <a href="https://github.com/imam21hasan/Data-Structure/blob/main/Tree/Binary%20Search%20Tree/Search_BST.c">Searching BST</a>
     - #### <a href="https://github.com/imam21hasan/Data-Structure/tree/main/Tree/Binary%20Search%20Tree/Insertion">Insertion</a>
     - #### <a href="https://github.com/imam21hasan/Data-Structure/tree/main/Tree/Binary%20Search%20Tree/Deletion">Deletion</a>
