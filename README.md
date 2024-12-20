@@ -36,7 +36,13 @@
 
 ## <a href="https://github.com/imam21hasan/Data-Structure/tree/main/Stacks-Queues-Recursion">Stacks-Queue-Recursion</a>
   - ### <a href="https://github.com/imam21hasan/Data-Structure/tree/main/Stacks-Queues-Recursion/Stacks">Stacks</a>
+    - #### <a href="https://github.com/imam21hasan/Data-Structure/tree/main/Stacks-Queues-Recursion/Stacks/Array%20Stacks">Array Stacks</a>
+    - #### <a href="https://github.com/imam21hasan/Data-Structure/tree/main/Stacks-Queues-Recursion/Stacks/Linked%20List%20Stacks">Linked List Stacks</a>
+    - #### <a href="https://github.com/imam21hasan/Data-Structure/tree/main/Stacks-Queues-Recursion/Stacks/Polish%20Notation">Polish Notation</a>
   - ### <a href="https://github.com/imam21hasan/Data-Structure/tree/main/Stacks-Queues-Recursion/Queues">Queues</a>
+    - #### <a href="https://github.com/imam21hasan/Data-Structure/tree/main/Stacks-Queues-Recursion/Queues/Linear%20Queue">Linear Queue</a>
+    - #### <a href="https://github.com/imam21hasan/Data-Structure/tree/main/Stacks-Queues-Recursion/Queues/Circular%20Queue">Circular Queue</a>
+    - #### <a href="https://github.com/imam21hasan/Data-Structure/blob/main/Stacks-Queues-Recursion/Queues/Queue_Using_Stack.c">Queue by Stack</a>
   - ### <a href="https://github.com/imam21hasan/Data-Structure/tree/main/Stacks-Queues-Recursion/Priority%20Queue%20">Priority Queue</a>
   - ### <a href="https://github.com/imam21hasan/Data-Structure/tree/main/Stacks-Queues-Recursion/Deque">Deque</a>
   - ### <a href="https://github.com/imam21hasan/Data-Structure/tree/main/Stacks-Queues-Recursion/Recursion">Recursion</a>
