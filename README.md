@@ -1,4 +1,4 @@
-# Data Structure
+<h1 align="center">Data Structure </h1>
 
 ## <a href="https://github.com/imam21hasan/Data-Structure/tree/main/Array">Array</a>
 - ### <a href="https://github.com/imam21hasan/Data-Structure/tree/main/Array/Deletion">Deletion</a>
