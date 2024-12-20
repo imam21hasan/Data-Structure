@@ -69,3 +69,7 @@
     - #### <a href="">B Tree Searching</a>
     - #### <a href="">Insertion</a>
     - #### <a href="">Deletion</a>
+
+## <a href="https://github.com/imam21hasan/Data-Structure/tree/main/Sorting">Sorting & Searching</a>
+  - ### <a href="">Sorting</a>
+  - ### <a href="">Searching</a>
