@@ -33,3 +33,10 @@
     - #### <a href="https://github.com/imam21hasan/Data-Structure/tree/main/Linked%20List/Circular%20Linked%20List/Doubly%20Circular%20List/Insertion">Insertion</a>
     - #### <a href="https://github.com/imam21hasan/Data-Structure/tree/main/Linked%20List/Circular%20Linked%20List/Doubly%20Circular%20List/Deletion">Deletion</a>
 - ### <a href="https://github.com/imam21hasan/Data-Structure/tree/main/Linked%20List/Copy%20Linked%20List">Copy Linked List</a>
+
+## <a href="https://github.com/imam21hasan/Data-Structure/tree/main/Stacks-Queues-Recursion">Stacks-Queue-Recursion</a>
+  - ### <a href="https://github.com/imam21hasan/Data-Structure/tree/main/Stacks-Queues-Recursion/Stacks">Stacks</a>
+  - ### <a href="https://github.com/imam21hasan/Data-Structure/tree/main/Stacks-Queues-Recursion/Queues">Queues</a>
+  - ### <a href="https://github.com/imam21hasan/Data-Structure/tree/main/Stacks-Queues-Recursion/Priority%20Queue%20">Priority Queue</a>
+  - ### <a href="https://github.com/imam21hasan/Data-Structure/tree/main/Stacks-Queues-Recursion/Deque">Deque</a>
+  - ### <a href="https://github.com/imam21hasan/Data-Structure/tree/main/Stacks-Queues-Recursion/Recursion">Recursion</a>
