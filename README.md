@@ -10,3 +10,5 @@
 - ### <a href="https://github.com/imam21hasan/Data-Structure/tree/main/Linked%20List/Singly%20Linked%20List">Singly Linked List</a>
   - #### <a href="https://github.com/imam21hasan/Data-Structure/blob/main/Linked%20List/Singly%20Linked%20List/Traverse%20Singly%20List/Traverse.c">Traverse Singly List</a>
   - #### <a href="https://github.com/imam21hasan/Data-Structure/tree/main/Linked%20List/Singly%20Linked%20List/Insertion">Insertion</a>
+  - #### <a href="https://github.com/imam21hasan/Data-Structure/tree/main/Linked%20List/Singly%20Linked%20List/Deletion">Deletion</a>
+  - #### <a href="https://github.com/imam21hasan/Data-Structure/blob/main/Linked%20List/Singly%20Linked%20List/Reverse%20List/ReverseSinglyList.c">Reverse List</a>
