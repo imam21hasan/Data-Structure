@@ -70,6 +70,6 @@
     - #### <a href="">Insertion</a>
     - #### <a href="">Deletion</a>
 
-## <a href="https://github.com/imam21hasan/Data-Structure/tree/main/Sorting">Sorting & Searching</a>
-  - ### <a href="">Sorting</a>
-  - ### <a href="">Searching</a>
+## <a href="https://github.com/imam21hasan/Data-Structure/tree/main/Sorting%20%26%20Searching">Sorting & Searching</a>
+  - ### <a href="https://github.com/imam21hasan/Data-Structure/tree/main/Sorting%20%26%20Searching/Searching">Searching</a>
+  - ### <a href="https://github.com/imam21hasan/Data-Structure/tree/main/Sorting%20%26%20Searching/Sorting">Sorting</a>
