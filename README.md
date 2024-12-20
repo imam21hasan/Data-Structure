@@ -16,7 +16,4 @@
   - #### <a href="https://github.com/imam21hasan/Data-Structure/blob/main/Linked%20List/Singly%20Linked%20List/Reverse%20List/ReverseSinglyList.c">Reverse Singly List</a>
 
 - ### <a href="https://github.com/imam21hasan/Data-Structure/tree/main/Linked%20List/Doubly%20Linked%20List">Doubly Linked List</a>
-  - #### <a href="https://github.com/imam21hasan/Data-Structure/blob/main/Linked%20List/Doubly%20Linked%20List/Traverse%20Doubly%20List/TraverseDoublyList.c">Traverse Doubly List<\a>
-  - #### <a href="https://github.com/imam21hasan/Data-Structure/tree/main/Linked%20List/Doubly%20Linked%20List/Insertion">Insertion<\a>
-  - #### <a href="https://github.com/imam21hasan/Data-Structure/tree/main/Linked%20List/Doubly%20Linked%20List/Deletion">Deletion<\a>
-  - #### <a href="https://github.com/imam21hasan/Data-Structure/blob/main/Linked%20List/Doubly%20Linked%20List/Reverse%20List/ReverseDoublyList.c">Reverse Doubly List<\a>
+  - #### <a href="https://github.com/imam21hasan/Data-Structure/blob/main/Linked%20List/Doubly%20Linked%20List/Traverse%20Doubly%20List/TraverseDoublyList.c">Traverse Doubly List</a>
